@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AppChatAndroid" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <!-- Other customizations -->
+    </style>
+
+    <!-- Dark theme (extends Base.Theme.AppChatAndroid) -->
+    <style name="Theme.AppChatAndroid" parent="Base.Theme.AppChatAndroid">
+        <!-- Customize your dark theme here -->
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+
+</resources>
