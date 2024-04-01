@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "953167115049",
+    "project_id": "login-c4d92",
+    "storage_bucket": "login-c4d92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953167115049:android:0b18d11d89f090620dbd38",
+        "android_client_info": {
+          "package_name": "com.example.chatapp_btl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYIHrUCWRB1ynigD_gdlQlvEoDP3au2nI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
