@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.appchatandroid.adapters.UsersAdapter;
 import com.example.appchatandroid.databinding.ActivityUsersBinding;
 import com.example.appchatandroid.listeners.UserListener;
@@ -18,7 +16,7 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UsersActivity extends AppCompatActivity implements UserListener {
+public class UsersActivity extends BaseActivity implements UserListener {
     private ActivityUsersBinding binding;
     private PreferenceManager preferenceManager;
 
@@ -32,7 +30,7 @@ public class UsersActivity extends AppCompatActivity implements UserListener {
 
     }
     private void setListeners(){
-        binding.imageBack.setOnClickListener(v -> getOnBackPressedDispatcher());
+        binding.imageBack.setOnClickListener(v -> onBackPressed());
     }
     private void getUsers(){
         loading(true);

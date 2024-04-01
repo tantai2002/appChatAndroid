@@ -8,4 +8,5 @@ public class User implements Serializable {
     public User() {
         // Cần có constructor mặc định để Firebase có thể deserialize dữ liệu
     }
+
 }
